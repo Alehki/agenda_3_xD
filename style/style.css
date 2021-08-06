@@ -1,0 +1,46 @@
+
+body{
+    margin: 0;
+    background-color: #333;
+    text-align: center;
+}
+
+.form__date, .btn{
+    text-align: center;
+    display: block;
+    width: 50%;
+    margin: 60px auto;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.btn{
+    background-color: aquamarine;
+    font-size: 1.3rem;
+}
+
+.list{
+    list-style: none;
+}
+
+.element{
+    background-color: rgb(196, 189, 189);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 20px 40px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+.element__date{
+    /* background-color: burlywood; */
+    display: inline-block;
+    margin-left: 70px;
+}
+
+.element__date--delete{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
