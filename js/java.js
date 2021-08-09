@@ -26,7 +26,7 @@ const getLocal = () =>{
 
     if(keysLocal.length==0){
         const li = document.createElement(`LI`)
-        li.textContent = `NO HAY USUARIOS AGREGADOS`
+        li.textContent = `NO HAY CONTACTOS AGREGADOS`
         li.classList.add(`element`, `element__red`)
         list.appendChild(li)
     }else{
@@ -84,11 +84,10 @@ btn.addEventListener(`click`, ()=>{
 
 })
 
-
-
 getLocal()
 
-
+// Podriamos agregar un mensaje de si "Estas seguro que desea eliminar el contacto"
+// o algo asi; VER LUEGO!
 
 
 
