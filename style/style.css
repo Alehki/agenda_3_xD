@@ -25,7 +25,7 @@ body{
 
 .element{
     background-color: rgb(196, 189, 189);
-    width: 50%;
+    width: 50vw;
     margin-left: auto;
     margin-right: auto;
 
@@ -35,12 +35,21 @@ body{
 }
 
 .element__date{
+    font-size: 1.5vw;
     /* background-color: burlywood; */
     display: inline-block;
-    margin-left: 70px;
+    margin-left: 7vw;
 }
 
 .element__date--delete{
     font-size: 1.5rem;
     cursor: pointer;
+}
+
+/* No hay usuarios agregados */
+
+.element__red{
+    background-color: brown;
+    height: 5vh;
+    font-size: 1.5rem;
 }
